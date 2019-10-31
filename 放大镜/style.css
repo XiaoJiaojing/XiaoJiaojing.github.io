@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.box {
+    width: 250px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 100px;
+    cursor: pointer;
+    position: relative;
+}
+
+.small {
+    width: 250px;
+    height: 400px;
+    position: relative;
+
+}
+
+.small img {
+    display: none;
+    width: 100%;
+}
+.small img.current {
+    display: block;
+}
+.mask {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 99999999;
+}
+
+.big {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 350px;
+    top: 0;
+    display: none;
+    overflow: hidden;
+}
+.big img {
+    display: none;
+
+}
+.big img.current {
+    display: block;
+}
+
+
+.superSmallImg {
+    margin-left: 102px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+.superSmallImg li {
+    width: 58px;
+    float: left;
+    margin-right: 5px;
+}
+.superSmallImg a {
+    display: block;
+    width: 100%;
+}
+.superSmallImg a img {
+    display: block;
+    width: 100%;
+}
+.active {
+    border: 1px solid red;
+}
+.backImg {
+    background: url("./images/新9.jpg") top center ;
+}
